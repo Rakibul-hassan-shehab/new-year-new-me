@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner_png1{
+    background-image: url("images/banner/banner1.png");
+    
+}
+
+.navbar_text a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff8c00;
+    padding: 10px;
+}
+.navbar img{
+    height: 300px;
+   width: 50%;
+
+}
+.navbar{
+    display: flex;
+    margin-top: 50px;
+}
+.navbar_text{
+    width: 50%;
+    align-items: right;
+}
+.main_section1{
+    margin-top: 100px;
+}
+.main_section1 img{
+    height: 550px;
+    width: 50%;
+}
+.main_section1{
+    display: flex;
+}
+.main_section_text{
+    width: 50%;
+    margin-top: 100px;
+}
+.main_section_text ul{
+    list-style: url("yes.png");
+    font-size: 20px;
+}
+.last_section2{
+    margin-top: 100px;
+}
+.secnd_section h1{
+    text-align: center;
+    font-size: 30px;
+}
+.last_section2{
+    display: flex;
+    
+   
+}
+.web_development{
+    padding-left: 300px;
+}
+.javascript{
+    padding-left: 100px;
+
+}
+.smoking_habit{
+    padding-left: 100px;
+}
+.ecommerce{
+    padding-left: 100px;
+}
+.bg_image{
+    background-image: url("images/watch.png");
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.bg_image h3{
+    color: white;
+    padding-top: 50px;
+   margin: 50px 0px 30px 50px;
+   font-size: 30px;
+}
+.bg_image a{
+    margin: 50px 0px 0px 50px;
+    background-color: wheat;
+    color: brown;
+    text-decoration: none;
+    padding: 10px;
+}
+.main_footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+.from{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.future{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.from a{
+   
+    text-decoration: none;
+    color: red;
+    background-color: aliceblue;
+    padding: 10px;
+}
+input[type="email"]{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 50px;
+    background-color: black;
+    border: 1px solid blue;
+    color: white;
+}   
+@media only screen and (max-width: 800px) {
+    body{
+        background-color: aqua;
+    }
+}
